@@ -1,8 +1,9 @@
 # Changelog
 
-## 0.1.0 — WIP
+## 0.1.0
 
-- Repository scaffold for **full** Fox Weapon Sound Mod port to SPT **4.0.13**.
-- Vanilla audio bank/weapon inventory captured (`mapping/vanilla_audio_index.json`).
-- Install / restore scripts for StreamingAssets overlay.
-- Pending: upstream Fox 3.0.1 ingest, clip mapping, full bundle rebuild, playtest.
+- Ingest FoxSoundMod **3.0.0** upstream (full pack).
+- C# PostDB Prefab remapper (`IsBundleMod`) for SPT **4.0.13**.
+- Deploy script copies `bundles.json` + `bundles/` into `user/mods`.
+- Skip Prefab remaps for TT / SKS / OP-SKS / VAL / VSS (asset breakage).
+- Inventory + mapping tables under `mapping/`.

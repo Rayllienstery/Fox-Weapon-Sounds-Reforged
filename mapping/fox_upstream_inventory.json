@@ -1,0 +1,1146 @@
+{
+  "upstream": "FoxSoundMod 3.0.0",
+  "akiVersion_claimed": "3.8.x",
+  "counts": {
+    "manifest_entries": 124,
+    "fox_banks": 42,
+    "sound_packs": 13,
+    "weapon_containers": 69,
+    "other": 0,
+    "missing_files": 0
+  },
+  "sound_packs": [
+    {
+      "key": "assets/content/audio/weapons/ak47sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 6281491
+    },
+    {
+      "key": "assets/content/audio/weapons/shotgunsounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 4639097
+    },
+    {
+      "key": "assets/content/audio/weapons/m4a1sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 5891697
+    },
+    {
+      "key": "assets/content/audio/weapons/glocksounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 583928
+    },
+    {
+      "key": "assets/content/audio/weapons/glock18sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 480511
+    },
+    {
+      "key": "assets/content/audio/weapons/mdrsounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 3272796
+    },
+    {
+      "key": "assets/content/audio/weapons/mutantsounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 2648385
+    },
+    {
+      "key": "assets/content/audio/weapons/valsounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 1378533
+    },
+    {
+      "key": "assets/content/audio/weapons/pistol1sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 8843949
+    },
+    {
+      "key": "assets/content/audio/weapons/falsounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 3852780
+    },
+    {
+      "key": "assets/content/audio/weapons/pistol1sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 8843949
+    },
+    {
+      "key": "assets/content/audio/weapons/smg1sounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 13329964
+    },
+    {
+      "key": "assets/content/audio/weapons/riflessounds.bundle",
+      "deps": [],
+      "file_exists": true,
+      "bytes": 8037725
+    }
+  ],
+  "fox_banks": [
+    {
+      "key": "assets/content/audio/banks/akmfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak47sounds.bundle",
+        "assets/content/audio/weapons/akm.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    },
+    {
+      "key": "assets/content/audio/banks/vpo209fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak47sounds.bundle",
+        "assets/content/audio/weapons/akm/vpo209.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6229
+    },
+    {
+      "key": "assets/content/audio/banks/ak74fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak47sounds.bundle",
+        "assets/content/audio/weapons/ak74.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6593
+    },
+    {
+      "key": "assets/content/audio/banks/aksu74fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak47sounds.bundle",
+        "assets/content/audio/weapons/aksu.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6305
+    },
+    {
+      "key": "assets/content/audio/banks/m4a1fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/m4a1sounds.bundle",
+        "assets/content/audio/weapons/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6609
+    },
+    {
+      "key": "assets/content/audio/banks/mcx.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/m4a1sounds.bundle",
+        "assets/content/audio/weapons/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    },
+    {
+      "key": "assets/content/audio/banks/hk416fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/m4a1sounds.bundle",
+        "assets/content/audio/banks/hk416.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6609
+    },
+    {
+      "key": "assets/content/audio/banks/adar.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/m4a1sounds.bundle",
+        "assets/content/audio/banks/rsass.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6077
+    },
+    {
+      "key": "assets/content/audio/banks/glockfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/weapons/glock17.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6373
+    },
+    {
+      "key": "assets/content/audio/banks/glock18fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/weapons/glock18.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6077
+    },
+    {
+      "key": "assets/content/audio/banks/mdrfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/mdrsounds.bundle",
+        "assets/content/audio/weapons/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    },
+    {
+      "key": "assets/content/audio/banks/mdr762fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/mdrsounds.bundle",
+        "assets/content/audio/weapons/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6609
+    },
+    {
+      "key": "assets/content/audio/banks/mutantfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/mutantsounds.bundle",
+        "assets/content/audio/banks/mp5.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6593
+    },
+    {
+      "key": "assets/content/audio/banks/vssfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/valsounds.bundle",
+        "assets/content/audio/weapons/vss.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6221
+    },
+    {
+      "key": "assets/content/audio/banks/p226fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/weapons/p226.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6509
+    },
+    {
+      "key": "assets/content/audio/banks/sa58fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/falsounds.bundle",
+        "assets/content/audio/banks/sa58.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6593
+    },
+    {
+      "key": "assets/content/audio/banks/m9a3fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/banks/glock17.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6501
+    },
+    {
+      "key": "assets/content/audio/banks/stm9fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6365
+    },
+    {
+      "key": "assets/content/audio/banks/tx15fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6341
+    },
+    {
+      "key": "assets/content/audio/banks/mp443fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/weapons/grach.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6221
+    },
+    {
+      "key": "assets/content/audio/banks/fivesevenfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/banks/glock17.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6445
+    },
+    {
+      "key": "assets/content/audio/banks/mpxfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/weapons/mpx.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    },
+    {
+      "key": "assets/content/audio/banks/mp7fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6653
+    },
+    {
+      "key": "assets/content/audio/banks/umpfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6437
+    },
+    {
+      "key": "assets/content/audio/banks/vityazfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/weapons/vityaz.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6321
+    },
+    {
+      "key": "assets/content/audio/banks/mp5fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/weapons/mp5.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6437
+    },
+    {
+      "key": "assets/content/audio/banks/1911fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/banks/glock17.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6517
+    },
+    {
+      "key": "assets/content/audio/banks/pl15fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/banks/p226.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6437
+    },
+    {
+      "key": "assets/content/audio/banks/p90fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/kedr.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6653
+    },
+    {
+      "key": "assets/content/audio/banks/mp9fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6509
+    },
+    {
+      "key": "assets/content/audio/banks/mp9nfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6521
+    },
+    {
+      "key": "assets/content/audio/banks/m870fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/shotgunsounds.bundle",
+        "assets/content/audio/banks/m870.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6365
+    },
+    {
+      "key": "assets/content/audio/banks/m590fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/shotgunsounds.bundle",
+        "assets/content/audio/weapons/mr133.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6373
+    },
+    {
+      "key": "assets/content/audio/banks/m700fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/sv-98.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6797
+    },
+    {
+      "key": "assets/content/audio/banks/m1afox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/m1a.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6357
+    },
+    {
+      "key": "assets/content/audio/banks/kedrfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/weapons/kedr.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6305
+    },
+    {
+      "key": "assets/content/audio/banks/vector9fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6465
+    },
+    {
+      "key": "assets/content/audio/banks/vector45fox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/smg1sounds.bundle",
+        "assets/content/audio/banks/mp7.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6469
+    },
+    {
+      "key": "assets/content/audio/banks/ttfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/pistol1sounds.bundle",
+        "assets/content/audio/weapons/tt.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6189
+    },
+    {
+      "key": "assets/content/audio/banks/svdfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/m1a.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6213
+    },
+    {
+      "key": "assets/content/audio/banks/scarlfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    },
+    {
+      "key": "assets/content/audio/banks/scarhfox.bundle",
+      "deps": [
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/riflessounds.bundle",
+        "assets/content/audio/banks/m4a1.bundle"
+      ],
+      "file_exists": true,
+      "bytes": 6581
+    }
+  ],
+  "weapon_containers": [
+    {
+      "key": "assets/content/weapons/akm/weapon_izhmash_akm_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1608921,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/akm/weapon_izhmash_akmn_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1541477,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/akm/weapon_izhmash_akms_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1541373,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/akm/weapon_izhmash_akmsn_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1543065,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/akm/weapon_molot_akm_vpo_209_366tkm_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/vpo209.bundle",
+        "assets/content/audio/banks/vpo209fox.bundle"
+      ],
+      "bytes": 1791401,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/akm/weapon_molot_vepr_km_vpo_136_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1539552,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak74/weapon_izhmash_ak74_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1536713,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak74/weapon_izhmash_ak74n_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1781948,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak74m/weapon_izhmash_ak74m_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74m.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1788549,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak100/weapon_izhmash_ak105_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1796053,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak100/weapon_izhmash_ak104_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1556673,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak100/weapon_izhmash_ak103_762x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/akm.bundle",
+        "assets/content/audio/banks/akmfox.bundle"
+      ],
+      "bytes": 1542353,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak100/weapon_izhmash_ak102_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak102.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1556145,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ak100/weapon_izhmash_ak101_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak101.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1542101,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/aks74/weapon_izhmash_aks74_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1545068,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/aks74/weapon_izhmash_aks74n_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1793973,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/aks74u/weapon_izhmash_aks74u_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/aksu.bundle",
+        "assets/content/audio/banks/aksu74fox.bundle"
+      ],
+      "bytes": 1539345,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/aks74u/weapon_izhmash_aks74ub_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/aksu.bundle",
+        "assets/content/audio/banks/aksu74fox.bundle"
+      ],
+      "bytes": 1540105,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/aks74u/weapon_izhmash_aks74un_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/aksu.bundle",
+        "assets/content/audio/banks/aksu74fox.bundle"
+      ],
+      "bytes": 1779029,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/rpk16/weapon_izhmash_rpk16_545x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74m.bundle",
+        "assets/content/audio/banks/ak74fox.bundle"
+      ],
+      "bytes": 1868265,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/m4a1fox.bundle"
+      ],
+      "bytes": 2325476,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mcx/weapon_sig_mcx_gen1_762x35_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/mcx.bundle",
+        "assets/content/audio/banks/m4a1fox.bundle"
+      ],
+      "bytes": 2534713,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/hk416/weapon_hk_416a5_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/hk416.bundle",
+        "assets/content/audio/banks/hk416fox.bundle"
+      ],
+      "bytes": 2523433,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/adar_2-15/weapon_adar_2-15_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/rsass.bundle",
+        "assets/content/audio/banks/adar.bundle"
+      ],
+      "bytes": 2298941,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mdr/weapon_dt_mdr_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/mdrfox.bundle"
+      ],
+      "bytes": 1730377,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mdr/weapon_dt_mdr_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/mdr762fox.bundle"
+      ],
+      "bytes": 1503233,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/val/weapon_tochmash_val_9x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/vss.bundle",
+        "assets/content/audio/banks/vssfox.bundle"
+      ],
+      "bytes": 2330497,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/vss/weapon_tochmash_vss_9x39_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/ak74.bundle",
+        "assets/content/audio/banks/vss.bundle",
+        "assets/content/audio/banks/vssfox.bundle"
+      ],
+      "bytes": 2324556,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/p226r/weapon_sig_p226r_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/p226.bundle",
+        "assets/content/audio/banks/p226fox.bundle"
+      ],
+      "bytes": 1601341,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/sa58/weapon_dsa_sa58_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/sa58.bundle",
+        "assets/content/audio/banks/sa58fox.bundle"
+      ],
+      "bytes": 2188716,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m9a3/weapon_beretta_m9a3_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/banks/m9a3fox.bundle",
+        "assets/content/audio/banks/p226fox.bundle"
+      ],
+      "bytes": 1502316,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/stm9/weapon_stmarms_stm_9_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/stm9fox.bundle"
+      ],
+      "bytes": 23858305,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/tx15/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/tx15fox.bundle"
+      ],
+      "bytes": 2526361,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/vpo-101/weapon_molot_vepr_hunter_vpo-101_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/vpo209.bundle",
+        "assets/content/audio/banks/sks.bundle",
+        "assets/content/audio/banks/sks.bundle"
+      ],
+      "bytes": 1586241,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp443/weapon_izhmeh_mp443_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp443.bundle",
+        "assets/content/audio/banks/mp443fox.bundle"
+      ],
+      "bytes": 1633741,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/fiveseven/weapon_fn_five_seven_57x28_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/banks/fivesevenfox.bundle"
+      ],
+      "bytes": 1747313,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/fiveseven/weapon_fn_five_seven_57x28_fde_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/banks/fivesevenfox.bundle"
+      ],
+      "bytes": 1978868,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mpx/weapon_sig_mpx_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mpxfox.bundle"
+      ],
+      "bytes": 1701432,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp7/weapon_hk_mp7a1_46x30_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/mp7fox.bundle"
+      ],
+      "bytes": 2287724,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp7/weapon_hk_mp7a2_46x30_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/mp7fox.bundle"
+      ],
+      "bytes": 2284585,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/ump/weapon_hk_ump_1143x23_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/umpfox.bundle"
+      ],
+      "bytes": 2825801,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pp-19-01/weapon_izhmash_pp-19-01_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/vityaz.bundle",
+        "assets/content/audio/banks/vityazfox.bundle"
+      ],
+      "bytes": 1440564,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pp-19-01/weapon_izhmash_saiga_9_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/vityaz.bundle",
+        "assets/content/audio/banks/vityazfox.bundle"
+      ],
+      "bytes": 1527153,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp5/weapon_hk_mp5_navy3_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp5.bundle",
+        "assets/content/audio/banks/mp5fox.bundle"
+      ],
+      "bytes": 1607248,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp5/weapon_hk_mp5_kurtz_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp5.bundle",
+        "assets/content/audio/banks/mp5fox.bundle"
+      ],
+      "bytes": 1352941,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m1911a1/weapon_colt_m1911a1_1143x23_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/banks/1911fox.bundle"
+      ],
+      "bytes": 1695156,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m1911a1/weapon_colt_m45a1_1143x23_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/glock17.bundle",
+        "assets/content/audio/banks/1911fox.bundle"
+      ],
+      "bytes": 1923345,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pl15/weapon_izhmash_pl15_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/p226.bundle",
+        "assets/content/audio/banks/pl15fox.bundle"
+      ],
+      "bytes": 1512845,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/p90/weapon_fn_p90_57x28_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/kedr.bundle",
+        "assets/content/audio/banks/p90fox.bundle"
+      ],
+      "bytes": 2416161,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp9/weapon_bt_mp9_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/mp9fox.bundle"
+      ],
+      "bytes": 2073996,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/mp9/weapon_bt_mp9n_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/mp9nfox.bundle"
+      ],
+      "bytes": 1845721,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m870/weapon_remington_model_870_12g_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mr133.bundle",
+        "assets/content/audio/banks/m870.bundle",
+        "assets/content/audio/banks/m870fox.bundle"
+      ],
+      "bytes": 1718028,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m590/weapon_mossberg_590a1_12g_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mr133.bundle",
+        "assets/content/audio/banks/m590fox.bundle"
+      ],
+      "bytes": 2024169,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m700/weapon_remington_model_700_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mosin.bundle",
+        "assets/content/audio/banks/sv-98.bundle",
+        "assets/content/audio/banks/m700fox.bundle"
+      ],
+      "bytes": 2010333,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/m1a/weapon_springfield_m1a_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m1a.bundle",
+        "assets/content/audio/banks/m1afox.bundle"
+      ],
+      "bytes": 2073985,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pp-91/weapon_zmz_pp-9_9x18pmm_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/kedr.bundle",
+        "assets/content/audio/banks/kedrfox.bundle"
+      ],
+      "bytes": 1417428,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pp-91/weapon_zmz_pp-91_9x18pm_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/kedr.bundle",
+        "assets/content/audio/banks/kedrfox.bundle"
+      ],
+      "bytes": 1414989,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/pp-91/weapon_zmz_pp-91-01_9x18pm_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/kedr.bundle",
+        "assets/content/audio/banks/kedrfox.bundle"
+      ],
+      "bytes": 1622317,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/vector/weapon_tdi_kriss_vector_gen_2_9x19_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/vector9fox.bundle"
+      ],
+      "bytes": 2611444,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/vector/weapon_tdi_kriss_vector_gen_2_1143x23_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/mp7.bundle",
+        "assets/content/audio/banks/vector45fox.bundle"
+      ],
+      "bytes": 2370665,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/tt/weapon_toz_tt_gold_762x25tt_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/tt.bundle",
+        "assets/content/audio/banks/ttfox.bundle"
+      ],
+      "bytes": 1352617,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/tt/weapon_toz_tt_gold_762x25tt_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/tt.bundle",
+        "assets/content/audio/banks/ttfox.bundle"
+      ],
+      "bytes": 1352617,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/svd/weapon_izhmash_svd_s_762x54_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m1a.bundle",
+        "assets/content/audio/banks/svdfox.bundle"
+      ],
+      "bytes": 2713621,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/scar/weapon_fn_mk16_556x45_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/rsass.bundle",
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/scarlfox.bundle"
+      ],
+      "bytes": 3499932,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/scar/weapon_fn_mk16_556x45_fde_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/rsass.bundle",
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/scarlfox.bundle"
+      ],
+      "bytes": 3739592,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/scar/weapon_fn_mk17_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/rsass.bundle",
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/scarhfox.bundle"
+      ],
+      "bytes": 3499225,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/scar/weapon_fn_mk17_762x51_fde_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/rsass.bundle",
+        "assets/content/audio/banks/m4a1.bundle",
+        "assets/content/audio/banks/scarhfox.bundle"
+      ],
+      "bytes": 3734125,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/g28/weapon_hk_g28_762x51_container.bundle",
+      "fox_banks": [
+        "assets/content/audio/banks/m4a1.bundle"
+      ],
+      "bytes": 6230400,
+      "file_exists": true
+    },
+    {
+      "key": "assets/content/weapons/usp/weapon_hk_usp_45_container.bundle",
+      "fox_banks": [],
+      "bytes": 4951028,
+      "file_exists": true
+    }
+  ],
+  "architecture": "Override vanilla weapon container bundle keys; containers depend on *fox audio banks; banks depend on *sounds packs + sometimes vanilla audio/weapons.",
+  "port_risk": "Drop-in of 3.x weapon containers onto 4.0.13 almost certainly breaks meshes/pathIDs. Safe port = keep Fox *sounds + *fox banks, rebuild container bank deps against vanilla 4.0 containers OR rebuild clips into vanilla audio banks."
+}

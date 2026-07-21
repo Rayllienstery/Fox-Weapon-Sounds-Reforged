@@ -1,19 +1,24 @@
 # Fox Weapon Sounds Reforged
 
-Full port of **Fox's Weapon Sound Mod** to **SPT-AKI 4.0.13**.
-
-Replaces vanilla weapon fire / foley audio by rebuilding into modern client
-`audio/banks` + `audio/weapons` bundles. **Not** a drop-in of SPT 3.8 Fox
-bundles (those break meshes / pathIDs on 4.0).
+Full port of **Fox's Weapon Sound Mod** (3.0.0) to **SPT-AKI 4.0.13**.
 
 | | |
 |--|--|
-| **Version** | **0.1.0** (WIP — awaiting upstream ingest) |
+| **Version** | **0.1.0** |
 | GitHub | https://github.com/Rayllienstery/Fox-Weapon-Sounds-Reforged |
-| Changelog | [CHANGELOG.md](CHANGELOG.md) |
 | Staging | `c:\Games\SPT\dev\Fox-Weapon-Sounds-Reforged` |
-| Live overlay | `EscapeFromTarkov_Data/StreamingAssets/Windows/assets/content/audio/` |
-| Upstream | Fox (NCSA) + Krinkova 3.8 update — see [NOTICE.md](NOTICE.md) |
+| Live | `SPT/user/mods/Fox-Weapon-Sounds-Reforged/` |
+| Upstream | FoxSoundMod 3.0.0 (`_upstream/`, gitignored) |
+
+---
+
+## How it works (same as original Fox)
+
+1. `bundles.json` + `bundles/` register Fox `*sounds` packs, `*fox` audio banks, and **weapon container** overrides (same keys as vanilla).
+2. C# PostDB loader remaps `item.Properties.Prefab.Path` so the client loads those containers.
+3. Containers depend on Fox banks → new gunfire/foley.
+
+**Risk on 4.0.13:** container bundles are from an older EFT client. Some guns may get invisible parts / bad anims. TT / SKS / VAL / VSS Prefab remaps are **skipped** (known 3.8 breakage). If other guns break, remove them from remaps or delete their container entries and re-deploy.
 
 ---
 
@@ -21,75 +26,29 @@ bundles (those break meshes / pathIDs on 4.0).
 
 | Field | Value |
 |-------|-------|
-| Author | Raylee |
-| SPT | **4.0.13** |
-| Scope | **Full Fox pack** (all overlapping banks/weapons), not M4-only |
-| License | NCSA (this repo) + upstream NOTICE |
+| ModGuid | `com.raylee.fox-weapon-sounds-reforged` |
+| Assembly | `Fox-Weapon-Sounds-Reforged.dll` |
+| IsBundleMod | `true` |
+| Author | Raylee (credits: Fox, Krinkova) |
+| SPT | `~4.0.0` (tested target **4.0.13**) |
 
-## Versioning (`x.y.z`)
-
-| Segment | When to bump |
-|---------|----------------|
-| **x** | Only when you explicitly ask for a major bump |
-| **y** | New weapon families / significant port coverage |
-| **z** | Bugfixes / clip remaps |
-
----
-
-## Quick start
-
-1. Place Fox **3.0.1** archive in `_upstream/` (gitignored).
-2. Run inventory + rebuild (see [docs/PORTING.md](docs/PORTING.md)).
-3. Install overlay:
+## Deploy
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\install.ps1
+# Requires extracted Fox 3.0.0 under _upstream\FoxSoundMod 3.0.0
+powershell -ExecutionPolicy Bypass -File scripts\deploy.ps1
 ```
 
-4. Launch client, test guns in Hideout.
-5. Rollback:
+Then **restart SPT Server** and the game client.
 
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts\restore.ps1
-```
+## Coverage (0.1.0)
 
-**Do not** copy 3.8 Fox bundles straight into StreamingAssets.
-
----
-
-## Coverage (target = full Fox set)
-
-Upstream Fox historically covers (non-exhaustive): M4 / HK416 / ADAR / TX-15 /
-MCX / AKs / VPO / RPK / VAL-VSS / MDR / FAL / SA-58 / Glocks / P226 / M9 /
-MPX / MP7 / UMP / Vityaz / Saiga-9 / MP5 / pistols / shotguns / SVD / M1A /
-M700 foley / SCAR / G28 / USP / Vector / many more.
-
-On 4.0.13 we port every Fox bank that still has a matching
-`audio/banks/<name>.bundle` and/or `audio/weapons/<name>.bundle`. Weapons that
-only exist in newer clients stay vanilla. Known 3.8 breakages (e.g. TT/SKS
-mesh issues, VAL/VSS/SR3M) go on a skip-list until remapped safely — see
-`mapping/skip_list.json`.
-
-Vanilla index: [`mapping/vanilla_audio_index.json`](mapping/vanilla_audio_index.json).
-
----
-
-## Layout
-
-```
-_upstream/          # Fox 3.0.1 archive (local only)
-vanilla-backup/     # copies of untouched 4.0.13 bundles
-mapping/            # inventories + clip maps + skip-list
-scripts/            # backup / install / restore
-dist/audio/         # rebuilt banks + weapons for install
-docs/PORTING.md
-```
-
----
+- **75** Prefab remaps applied (from Fox JS; 6 skipped).
+- **42** fox banks, **13** sound packs, **69** weapon containers in upstream manifest.
+- Details: `mapping/fox_upstream_inventory.json`, `mapping/prefab_remaps_filtered.json`.
 
 ## Credits
 
 - **Fox** — original Weapon Sound Mod
-- **Krinkova** — SPT 3.8 updated package
-- **BooMoon** — historical animation/asset fixes (per 3.8 thread)
-- **Raylee** — 4.0.13 rebuild / this fork
+- **Krinkova** — later SPT updates
+- **Raylee** — 4.0.13 C# / bundle packaging fork
