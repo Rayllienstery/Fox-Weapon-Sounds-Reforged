@@ -1,0 +1,16 @@
+# Upstream archives (do not commit proprietary/third-party bin dumps wholesale)
+_upstream/
+*.7z
+*.zip
+*.rar
+
+# Vanilla backups and rebuilt binaries (large; ship via GitHub Releases)
+vanilla-backup/
+dist/**/*.bundle
+!dist/.gitkeep
+
+# Tools / local
+.tools/
+*.log
+.DS_Store
+Thumbs.db

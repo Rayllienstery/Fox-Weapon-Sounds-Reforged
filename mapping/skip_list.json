@@ -1,0 +1,18 @@
+{
+  "description": "Banks/weapons to leave vanilla until a safe 4.0 remap exists. Seeded from known Fox 3.8 breakage reports.",
+  "skip_banks": [
+    "tt",
+    "sks",
+    "vss"
+  ],
+  "skip_weapons": [
+    "tt",
+    "sks",
+    "vss"
+  ],
+  "notes": [
+    "Krinkova 3.0.1 reverted TT / gold TT / SKS to vanilla to avoid invisible parts.",
+    "Community reports: VSS / AS VAL / SR3M audio remaps caused missing models or silent guns on some clients.",
+    "Expand this list during inventory if a Fox bundle has no 4.0 counterpart or pathID map fails."
+  ]
+}

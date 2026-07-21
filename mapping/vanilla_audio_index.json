@@ -1,0 +1,338 @@
+{
+  "spt": "4.0.13",
+  "banks": {
+    "ak101": {
+      "file": "ak101.bundle",
+      "bytes": 4256864
+    },
+    "ak102": {
+      "file": "ak102.bundle",
+      "bytes": 4553056
+    },
+    "ak74": {
+      "file": "ak74.bundle",
+      "bytes": 4003792
+    },
+    "ak74m": {
+      "file": "ak74m.bundle",
+      "bytes": 10215200
+    },
+    "akm": {
+      "file": "akm.bundle",
+      "bytes": 7520
+    },
+    "aksu": {
+      "file": "aksu.bundle",
+      "bytes": 7536
+    },
+    "aps": {
+      "file": "aps.bundle",
+      "bytes": 7520
+    },
+    "ash12": {
+      "file": "ash12.bundle",
+      "bytes": 14331872
+    },
+    "dvl": {
+      "file": "dvl.bundle",
+      "bytes": 2217888
+    },
+    "glock17": {
+      "file": "glock17.bundle",
+      "bytes": 17795792
+    },
+    "glock18": {
+      "file": "glock18.bundle",
+      "bytes": 6768
+    },
+    "grenade": {
+      "file": "grenade.bundle",
+      "bytes": 7169808
+    },
+    "hk416": {
+      "file": "hk416.bundle",
+      "bytes": 3918240
+    },
+    "kedr": {
+      "file": "kedr.bundle",
+      "bytes": 6771504
+    },
+    "m1a": {
+      "file": "m1a.bundle",
+      "bytes": 10214624
+    },
+    "m4a1": {
+      "file": "m4a1.bundle",
+      "bytes": 21624432
+    },
+    "m870": {
+      "file": "m870.bundle",
+      "bytes": 2507152
+    },
+    "mosin": {
+      "file": "mosin.bundle",
+      "bytes": 5503904
+    },
+    "mp443": {
+      "file": "mp443.bundle",
+      "bytes": 6496
+    },
+    "mp5": {
+      "file": "mp5.bundle",
+      "bytes": 6736624
+    },
+    "mp7": {
+      "file": "mp7.bundle",
+      "bytes": 24543952
+    },
+    "mpx": {
+      "file": "mpx.bundle",
+      "bytes": 7520
+    },
+    "mr133": {
+      "file": "mr133.bundle",
+      "bytes": 2745104
+    },
+    "mr153": {
+      "file": "mr153.bundle",
+      "bytes": 1310112
+    },
+    "mr43": {
+      "file": "mr43.bundle",
+      "bytes": 516032
+    },
+    "p226": {
+      "file": "p226.bundle",
+      "bytes": 2809408
+    },
+    "pb": {
+      "file": "pb.bundle",
+      "bytes": 6704
+    },
+    "pm": {
+      "file": "pm.bundle",
+      "bytes": 6448
+    },
+    "rsass": {
+      "file": "rsass.bundle",
+      "bytes": 9951968
+    },
+    "sa58": {
+      "file": "sa58.bundle",
+      "bytes": 7945440
+    },
+    "saiga12": {
+      "file": "saiga12.bundle",
+      "bytes": 6880
+    },
+    "sks": {
+      "file": "sks.bundle",
+      "bytes": 1146416
+    },
+    "sr1mp": {
+      "file": "sr1mp.bundle",
+      "bytes": 6912
+    },
+    "sv-98": {
+      "file": "sv-98.bundle",
+      "bytes": 3976880
+    },
+    "toz106": {
+      "file": "toz106.bundle",
+      "bytes": 1401312
+    },
+    "tt": {
+      "file": "tt.bundle",
+      "bytes": 6976
+    },
+    "vityaz": {
+      "file": "vityaz.bundle",
+      "bytes": 7536
+    },
+    "vpo209": {
+      "file": "vpo209.bundle",
+      "bytes": 842512
+    },
+    "vss": {
+      "file": "vss.bundle",
+      "bytes": 6736
+    },
+    "weaponsounds": {
+      "dir": true,
+      "children": [
+        "weaponsounds.bundle"
+      ]
+    }
+  },
+  "weapons": {
+    "ak105": {
+      "file": "ak105.bundle",
+      "bytes": 2658320
+    },
+    "ak74": {
+      "file": "ak74.bundle",
+      "bytes": 9002016
+    },
+    "akm": {
+      "file": "akm.bundle",
+      "bytes": 4739056
+    },
+    "aksu": {
+      "file": "aksu.bundle",
+      "bytes": 5404944
+    },
+    "aps": {
+      "file": "aps.bundle",
+      "bytes": 4036016
+    },
+    "dvl": {
+      "file": "dvl.bundle",
+      "bytes": 2360880
+    },
+    "glock17": {
+      "file": "glock17.bundle",
+      "bytes": 4029680
+    },
+    "glock18": {
+      "file": "glock18.bundle",
+      "bytes": 2028208
+    },
+    "grach": {
+      "file": "grach.bundle",
+      "bytes": 4426336
+    },
+    "grenade": {
+      "file": "grenade.bundle",
+      "bytes": 3039184
+    },
+    "items": {
+      "file": "items.bundle",
+      "bytes": 829440
+    },
+    "kac pdw": {
+      "file": "kac pdw.bundle",
+      "bytes": 937136
+    },
+    "kedr": {
+      "file": "kedr.bundle",
+      "bytes": 4961744
+    },
+    "knife_bayonet": {
+      "file": "knife_bayonet.bundle",
+      "bytes": 978608
+    },
+    "m4a1": {
+      "file": "m4a1.bundle",
+      "bytes": 6186416
+    },
+    "mosin": {
+      "dir": true,
+      "children": [
+        "instr"
+      ]
+    },
+    "mp5": {
+      "file": "mp5.bundle",
+      "bytes": 5720544
+    },
+    "mpx": {
+      "file": "mpx.bundle",
+      "bytes": 6824144
+    },
+    "mr133": {
+      "file": "mr133.bundle",
+      "bytes": 4741472
+    },
+    "mr153": {
+      "file": "mr153.bundle",
+      "bytes": 3540128
+    },
+    "mr43": {
+      "file": "mr43.bundle",
+      "bytes": 2720944
+    },
+    "p226": {
+      "file": "p226.bundle",
+      "bytes": 2455488
+    },
+    "pb": {
+      "file": "pb.bundle",
+      "bytes": 2004512
+    },
+    "pm": {
+      "file": "pm.bundle",
+      "bytes": 4566272
+    },
+    "rgd": {
+      "file": "rgd.bundle",
+      "bytes": 6163088
+    },
+    "sa58": {
+      "dir": true,
+      "children": [
+        "instr"
+      ]
+    },
+    "saiga12": {
+      "file": "saiga12.bundle",
+      "bytes": 3407296
+    },
+    "sks": {
+      "file": "sks.bundle",
+      "bytes": 2660048
+    },
+    "sr1mp": {
+      "file": "sr1mp.bundle",
+      "bytes": 5322176
+    },
+    "sv98": {
+      "file": "sv98.bundle",
+      "bytes": 2223968
+    },
+    "test sounds": {
+      "file": "test sounds.bundle",
+      "bytes": 965984
+    },
+    "tt": {
+      "file": "tt.bundle",
+      "bytes": 2977712
+    },
+    "usable_items": {
+      "dir": true,
+      "children": [
+        "item_alyonka_03_eat.bundle",
+        "item_bandage.bundle",
+        "item_crackers.bundle",
+        "item_drinkcan.bundle",
+        "item_filterbottle.bundle",
+        "item_flakes.bundle",
+        "item_foodcan.bundle",
+        "item_injector.bundle",
+        "item_mayo.bundle",
+        "item_medkit_ai.bundle",
+        "item_medkit_grizzly.bundle",
+        "item_medkit_salewa.bundle",
+        "item_mre.bundle",
+        "item_pillsblister.bundle",
+        "item_pillsbottle.bundle",
+        "item_slippers.bundle",
+        "item_splint.bundle",
+        "item_tetrapak.bundle",
+        "item_tetrapakwcap.bundle",
+        "item_vodka_02_drink"
+      ]
+    },
+    "vihr": {
+      "file": "vihr.bundle",
+      "bytes": 133888
+    },
+    "vityaz": {
+      "file": "vityaz.bundle",
+      "bytes": 4784800
+    },
+    "vss": {
+      "file": "vss.bundle",
+      "bytes": 1964368
+    }
+  }
+}
